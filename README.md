@@ -15,12 +15,12 @@ Step 7: close inFile
 I. Input (use argv[1]): a text file contain a list of pair {<op, data>}, one pair per text line, 
  where op is either - or +. - means delete, + means insert and data is a character string. 
 For example,
-|+ Tom
-|+ Adam
-|+ Sean
-|+ Michael
-|- Tom
-|- Tim
++ Tom
++ Adam
++ + Sean
++ Michael
+- Tom
+- Tim
 ********************************
 II. Outputs: There will be two output files.
 ********************************
